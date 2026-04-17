@@ -55,7 +55,7 @@ export const FlipLinks = () => {
     <section className="flex flex-col items-center justify-center gap-2 w-full py-10">
       <FlipLink href="https://linkedin.com/in/sujoymoulick">Linkedin</FlipLink>
       <FlipLink href="https://github.com/sujoymoulick">Github</FlipLink>
-      <FlipLink href="https://instagram.com/sujoymoulick">Instagram</FlipLink>
+      <FlipLink href="https://www.instagram.com/breathhashira?igsh=M2tpY2t2MjZtazRz">Instagram</FlipLink>
     </section>
   );
 };
