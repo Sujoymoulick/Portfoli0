@@ -1,5 +1,5 @@
+import React, { useState } from "react";
 import { cn } from "@/lib/utils";
-import { useState } from "react";
 
 export const Component = () => {
   const [count, setCount] = useState(0);

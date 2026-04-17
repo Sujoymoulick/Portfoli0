@@ -1,10 +1,12 @@
 import React, { useEffect } from 'react';
 import Lenis from 'lenis';
-import BottomNavBar from './components/ui/bottom-nav-bar';
+import { Header } from '@/components/ui/header-1';
 import Hero from './components/Hero';
 import BentoGrid from './components/BentoGrid';
+import TechStack from './components/TechStack';
 import About from './components/About';
-import Timeline from './components/Timeline';
+import Career from './components/Career';
+import Certificates from './components/Certificates';
 import Contact from './components/Contact';
 import FeaturedShowcase from './components/FeaturedShowcase';
 import ASMRStaticBackground from '@/components/ui/asmr-static-background';
@@ -50,13 +52,15 @@ const App: React.FC = () => {
   return (
     <div className="app">
       <ASMRStaticBackground />
-      <BottomNavBar stickyBottom />
+      <Header />
       <main>
         <Hero />
         <About />
         <FeaturedShowcase />
-        <Timeline />
+        <Career />
+        <Certificates />
         <BentoGrid />
+        <TechStack />
         <Contact />
       </main>
       
