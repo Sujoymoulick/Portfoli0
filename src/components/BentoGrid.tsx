@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { RadialScrollGallery } from './ui/portfolio-and-image-gallery';
 import { ArrowUpRight } from 'lucide-react';
 import { Badge } from './ui/badge';
@@ -47,7 +47,7 @@ const projects = [
   },
 ];
 
-const BentoGrid: React.FC = () => {
+const BentoGrid = () => {
   const [isDesktop, setIsDesktop] = useState(true);
   const [mounted, setMounted] = useState(false);
 

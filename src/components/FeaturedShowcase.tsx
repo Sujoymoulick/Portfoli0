@@ -1,8 +1,8 @@
-import React from "react";
+
 import { ContainerScroll } from "./ui/container-scroll-animation";
 import Web3Model from "./ui/web3-model";
 
-const FeaturedShowcase: React.FC = () => {
+const FeaturedShowcase = () => {
   return (
     <section className="flex flex-col overflow-hidden bg-black py-20 w-full max-w-[100vw]">
       <ContainerScroll
