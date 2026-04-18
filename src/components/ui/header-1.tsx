@@ -81,7 +81,7 @@ export function Header() {
 					))}
 					<div className="w-[1px] h-4 bg-white/10 mx-2" />
 					<a
-						href="src/assets/My_resume_2026.pdf"
+						href="/My_resume_2026.pdf"
 						target="_blank"
 						rel="noopener noreferrer"
 						download="Sujoy_Moulick_Resume.pdf"
